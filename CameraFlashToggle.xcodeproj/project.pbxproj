@@ -21,6 +21,7 @@
 		61A41C8F15B6FC51005710B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A41C6D15B6FC51005710B8 /* Foundation.framework */; };
 		61A41C9715B6FC51005710B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61A41C9515B6FC51005710B8 /* InfoPlist.strings */; };
 		61A41C9A15B6FC51005710B8 /* CameraFlashToggleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A41C9915B6FC51005710B8 /* CameraFlashToggleTests.m */; };
+		61A41CA415B6FCAF005710B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A41CA315B6FCAF005710B8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		61A41C9615B6FC51005710B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61A41C9815B6FC51005710B8 /* CameraFlashToggleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraFlashToggleTests.h; sourceTree = "<group>"; };
 		61A41C9915B6FC51005710B8 /* CameraFlashToggleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraFlashToggleTests.m; sourceTree = "<group>"; };
+		61A41CA315B6FCAF005710B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A41CA415B6FCAF005710B8 /* AVFoundation.framework in Frameworks */,
 				61A41C6C15B6FC51005710B8 /* UIKit.framework in Frameworks */,
 				61A41C6E15B6FC51005710B8 /* Foundation.framework in Frameworks */,
 				61A41C7015B6FC51005710B8 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		61A41C6A15B6FC51005710B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61A41CA315B6FCAF005710B8 /* AVFoundation.framework */,
 				61A41C6B15B6FC51005710B8 /* UIKit.framework */,
 				61A41C6D15B6FC51005710B8 /* Foundation.framework */,
 				61A41C6F15B6FC51005710B8 /* CoreGraphics.framework */,

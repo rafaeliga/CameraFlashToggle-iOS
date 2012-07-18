@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)flashOn:(id)sender;
+- (IBAction)flashOff:(id)sender;
+- (IBAction)flashToggle:(id)sender;
+
 @end
